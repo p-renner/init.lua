@@ -2,12 +2,12 @@
 vim.o.hlsearch = false
 
 -- Make line numbers default
-vim.wo.number = true
+vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
--- Sync clipboard between OS and Neovim.
+-- clipboard between OS and Neovim.
 vim.o.clipboard = 'unnamedplus'
 
 -- Enable break indent
@@ -31,3 +31,5 @@ vim.o.timeoutlen = 300
 vim.o.completeopt = 'menuone,noselect'
 
 vim.o.termguicolors = true
+
+vim.opt.conceallevel = 1
