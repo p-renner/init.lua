@@ -1,3 +1,12 @@
 return {
-    'github/copilot.vim'
+    {
+        "zbirenbaum/copilot.lua",
+        opts = {
+            suggestion = {
+                enabled = true,
+                auto_trigger = true,
+                keymap = { accept = "<C-j>" }
+            },
+        }
+    }
 }
