@@ -7,6 +7,10 @@ return {
                 auto_trigger = true,
                 keymap = { accept = "<C-j>" }
             },
+            filetypes = {
+                markdown = true,
+                yaml = true,
+            },
         }
     }
 }

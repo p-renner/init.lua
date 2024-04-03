@@ -259,7 +259,21 @@ local servers = {
   -- gopls = {},
   -- pyright = {},
   -- rust_analyzer = {},
-  intelephense = {},
+  intelephense = {
+    settings = {
+      intelephense = {
+        format = {
+          enable = false,
+          indent = true,
+          tabSize = 4,
+          insertSpaces = true,
+          maxLines = 500,
+          maxLineLength = 120,
+          wrapAttributes = 'auto',
+        },
+      },
+    }
+  },
   tsserver = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 
